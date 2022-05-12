@@ -72,6 +72,20 @@ $(function() {
                     document.getElementById('container').appendChild(circle)
                     document.getElementById('circle').appendChild(idplayer)
                 }
+                if (item.Style == 4) {
+                    var idplayer = document.createElement("h1")
+
+                    idplayer.id = "id"
+                    idplayer.style.position = "fixed";
+                    idplayer.style.top = item.top + "vh";
+                    idplayer.style.left = item.left + "vh";
+                    idplayer.style.fontSize = "2vh";
+                    idplayer.style.color = "white";
+                    idplayer.style.fontFamily = "arial";
+                    idplayer.style.fontWeight = "bold";
+                    
+                    document.getElementById('container').appendChild(idplayer)
+                }
             hud = true
             }
             document.getElementById('id').innerHTML = "ID: " + item.id;
