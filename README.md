@@ -17,3 +17,4 @@ This script have config.lua for changing the position or the differant style pur
 Style 1 : ![click here](http://image.noelshack.com/fichiers/2022/19/4/1652358416-style1.jpg)
 Style 2 : ![click here](http://image.noelshack.com/fichiers/2022/19/4/1652358513-style2.jpg)
 Style 3 : ![click here](http://image.noelshack.com/fichiers/2022/19/4/1652358640-style3.jpg)
+Style 4 : Text "ID: .." display on screen (simple)
